@@ -24,6 +24,9 @@
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
+    @include medquery {
+      flex-direction: row;
+    }
   }
   
   [class^=col] {
