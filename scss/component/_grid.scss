@@ -50,50 +50,86 @@
   
   .theme.col-1 {
     background-color: $purple;
+    @include medquery {
+      flex-basis: 8.33%;
+    }
   }
   
   .theme.col-2 {
     background-color: $red-orange;
+    @include medquery {
+      flex-basis: 16.67%;
+    }
   }
   
   .theme.col-3 {
     background-color: $lavender;
+    @include medquery {
+      flex-basis: 25.00%;
+    }
   }
   
   .theme.col-4 {
     background-color: $light-sky-blue;
+    @include medquery {
+      flex-basis: 33.33%;
+    }
   }
   
   .theme.col-5 {
     background-color: $light-green;
+    @include medquery {
+      flex-basis: 41.67%;
+    }
   }
   
   .theme.col-6 {
     background-color: $teal-blue;
+    @include medquery {
+      flex-basis: 50.00%;
+    }
   }
   
   .theme.col-7 {
     background-color: $light-coral;
+    @include medquery {
+      flex-basis: 58.33%;
+    }
   }
   
   .theme.col-8 {
     background-color: $light-orange;
+    @include medquery {
+      flex-basis: 66.67%;
+    }
   }
   
   .theme.col-9 {
     background-color: $light-red;
+    @include medquery {
+      flex-basis: 75.00%;
+    }
   }
   
   .theme.col-10 {
     background-color: $green-apple;
+    @include medquery {
+      flex-basis: 83.33%;
+    }
   }
   
   .theme.col-11 {
     background-color: $sky-blue;
+    @include medquery {
+      flex-basis: 91.67%;
+    }
   }
   
   .theme.col-12 {
     background-color: $light-seafoam-green;
+    @include medquery {
+      flex-basis: 100%;
+    }
   }
   
   .card {
