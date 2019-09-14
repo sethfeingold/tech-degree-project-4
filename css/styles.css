@@ -63,6 +63,19 @@
   padding: 10px;
   border-radius: 5px;
 }
+@media (min-width: 768px) {
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+}
 
 .theme.col-1 {
   background-color: #927bc1;
