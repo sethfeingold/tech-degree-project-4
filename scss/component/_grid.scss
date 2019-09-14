@@ -4,6 +4,12 @@
 
 .container {
     padding: 0 10px;
+    @include medquery {
+      max-width: 1400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   
   .row {
