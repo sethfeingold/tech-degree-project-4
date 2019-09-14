@@ -1,7 +1,2 @@
-// Import mixins partial
-
-@import "/scss/utilities/_mixins.scss"
-
-// Import variables partial
-
-@import "/scss/utilities/_variables.scss"
+@import "_mixins.scss";
+@import "_variables.scss";
