@@ -22,20 +22,35 @@
   
   .default {
     background-color: $sky-blue;
+    &:hover {
+      background-color: lighten($color: $sky-blue, $amount: 15%)
+    }
   }
   
   .error {
     background-color: $light-red;
+    &:hover {
+      background-color: lighten($color: $light-red, $amount: 15%)
+    }
   }
   
   .info {
     background-color: $purple;
+    &:hover {
+      background-color: lighten($color: $purple, $amount: 15%)
+    }
   }
   
   .success {
     background-color: $green-apple;
+    &:hover {
+      background-color: lighten($color: $green-apple, $amount: 15%)
+    }
   }
   
   .warning {
     background-color: $red-orange;
+    &:hover {
+      background-color: lighten($color: $red-orange, $amount: 15%)
+    }
   }
