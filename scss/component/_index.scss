@@ -1,5 +1,5 @@
-@import "_button.scss";
-@import "_form.scss";
-@import "_grid.scss";
-@import "_image.scss";
-@import "_navigation.scss";
+@import '../component/navigation',
+        '../component/grid',
+        '../component/button',
+        '../component/form',
+        '../component/image';
