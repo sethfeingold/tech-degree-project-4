@@ -14,7 +14,6 @@
     align-items: center;
   }
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -28,7 +27,6 @@
     flex-basis: 100px;
   }
 }
-
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
